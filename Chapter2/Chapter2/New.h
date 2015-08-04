@@ -9,5 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface New : NSViewController
+{
+    int a;
+    int b;
+}
 
++ (void) test;
 @end

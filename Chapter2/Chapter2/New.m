@@ -10,4 +10,20 @@
 
 @implementation New
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    
+    return self;
+    
+}
++ (void) test
+{
+    enum flag sa;
+    sa = true;
+    
+}
+
 @end
